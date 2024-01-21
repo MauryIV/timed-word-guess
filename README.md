@@ -2,6 +2,7 @@
 
 ## Description
 A random word is chosen, you have 5 seconds to guess what that word is, type any letter and it will fill the appropriate space.
+https://mauryiv.github.io/timed-word-guess/
 
 ## Visuals
 ![Screenshot 2024-01-20 at 10 56 34 PM](https://github.com/MauryIV/timed-word-guess/assets/146037880/d6eee893-bf33-4682-bf18-b7afaefda8bf)
