@@ -16,7 +16,7 @@ function compChoice() {
 
 // then a timer needs to be in the background or side, when that hits 0, reset the code.
 function timer() {
-  time = 5
+  time = 21
   timeLeft = setInterval(function() {
     time--;
     document.querySelector("#time-left").textContent = time + " seconds left!";
@@ -88,6 +88,7 @@ function restart() {
 
 // event listen for keyboard actions
 document.querySelector("#guess").addEventListener("keydown", keydownAction);
+document.querySelector("#guess").addEventListener("touchstart", keydownAction);
 
 // event listen for replaying
 document.querySelector("#try-again").addEventListener("click", restart);
