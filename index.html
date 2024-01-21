@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>  
+  <div class="card">
+    <h2>Guess the word. Good Luck!</h2>
+    <div class="info">
+      <div class="output">
+        <p>The Word is:</p>
+        <div id="chosen-word"></div>
+      </div>
+      <div class="input">
+        <p>Take a guess:</p>
+        <input id="guess" placeholder="" />
+      </div>
+      <div id="msg"></div>
+      <button id="try-again">Try Again</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2 id="end">Time Left:</h2>
+    <p id="time-left"></p>
+    <p id="win"></p>
+    <p id="loss"></p>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
