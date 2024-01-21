@@ -16,7 +16,7 @@ function compChoice() {
 
 // then a timer needs to be in the background or side, when that hits 0, reset the code.
 function timer() {
-  time = 21
+  time = 11
   timeLeft = setInterval(function() {
     time--;
     document.querySelector("#time-left").textContent = time + " seconds left!";
@@ -26,7 +26,7 @@ function timer() {
       losses++;
       localStorage.setItem("losses", losses);
       document.querySelector("#loss").textContent = ("Losses = " + losses + ".")
-      document.getElementById("end").textContent = ("Maybe next time.")
+      document.getElementById("end").textContent = ("The word was '" + compWord + "'.")
       if (wins > 0) {
         document.querySelector("#win").textContent = ("Wins = " + wins + ".")
       }
